@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+}
+
+body{
+  margin: 0;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+img{
+  max-width: 100%;
+}
+
+section{
+  margin-bottom: 20px;
+}
+
+/************************* UTILS *********************/
+/*.container{
+  width: 95%;
+  max-width: 1100px;
+  margin: 0 auto;
+}*/
+
+.caption{
+  font-size: .8rem;
+}
+.hightlight{
+  background-color: yellow;
+}
+
+/************************* HEADER *********************/
+header{
+  background-image: url('/img/pattern.png');
+  background-color: #4EA1FF;
+  background-size: 30%;
+  padding-top: 40px;
+  padding-left: 8px;
+}
+
+header .logo{
+  width: 200px;
+}
+
+main, footer{
+  padding: 20px;
+}
+
+/************************* MAIN *********************/
+
+/* section top */
+section#top .dida{
+  color: #808080;
+}
+
+section#top .dida .name{
+  color: #469AB9;
+}
+
+section#top .dida .date{
+  font-size: .8rem;
+}
+
+section#top .image-area{
+  padding-top: 20px;
+}
+
+/* section article */
+section#article p{
+  margin-bottom: 20px;
+}
+
+section#article ul{
+  padding-left: 0;
+  margin-left: 15px;
+}
+
+/* section table */
+section#table table{
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+section#table table thead{
+  background-color: #24A9E3;
+  color: white;
+  text-align: left;
+}
+section#table table th.text{
+  width: 50%;
+}
+section#table table tr.odd{
+  background-color: #B1E6F2;
+}
+
+/************************* FOOTER *********************/
+
+footer h3{
+  color: #808080;
+}
+
+footer .image-box{
+  width: 205px;
+  height: 160px;
+  color: white;
+  background-color: red;
+  margin: 10px;
+  margin-left: 0;
+  padding: 15px;
+}
+
+footer .image-box h4{
+  font-size: 1.2rem;
+}
+
+footer .image-box#monitor{
+  background-image: url('/img/monitor.jpg');
+}
+
+footer .image-box#graph{
+  background-image: url('/img/graph.jpg');
+}
